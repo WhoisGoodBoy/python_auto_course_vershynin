@@ -1,5 +1,5 @@
 from selenium.webdriver import Chrome
-from lesson23.pages.dashboard import Dashboard
+from lesson23.pages.dashboard_page import Dashboard
 
 import pytest
 

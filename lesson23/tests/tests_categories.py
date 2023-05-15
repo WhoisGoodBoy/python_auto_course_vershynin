@@ -8,3 +8,9 @@ def test_check_choose_category(dashboard):
     time.sleep(1)
     building_subcat = pick_subcategory.choose_building_materials_section()
     time.sleep(1)
+
+
+def test_check_login(dashboard):
+    login = dashboard.login_form()
+    login.fill_row('test@gmail.com', '123445hjgj')
+    time.sleep(5)
